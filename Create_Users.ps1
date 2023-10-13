@@ -1,4 +1,6 @@
-﻿# ----- Edit these Variables for your own Use Case ----- #
+﻿# ----- This code creates a list of 1000 users based off of the 1000 names in the names.txt file provided ----- #
+
+ # ----- Edit these Variables for your own Use Case ----- #
 $PASSWORD_FOR_USERS   = "Password1"
 $USER_FIRST_LAST_LIST = Get-Content .\names.txt
 # ------------------------------------------------------ #
